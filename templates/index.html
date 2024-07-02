@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping List Generator</title>
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<h1>Shopping List Generator</h1>
+<form action="/generate" method="POST">
+<label for="family_size">Family Size:</label>
+<input type="number" name="family_size" id="family_size">
+<br>
+<label for="budget">Budget:</label>
+<input type="number" name="budget" id="budget">
+<br>
+<label for="dietary_restrictions">Dietary Restrictions:</label>
+<input type="text" name="dietary_restrictions" id="dietary_restrictions">
+<br>
+<input type="submit" value="Generate Shopping List">
+</form>
+</body>
+</html>
+
+
